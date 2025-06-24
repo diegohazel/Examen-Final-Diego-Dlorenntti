@@ -16,9 +16,9 @@ double get_calories_burned(double dist, times current_time);
 string get_achievement(double dist);
 vector<package> accept_package(package data);
 
-// TODO: Implemente los protitopis de funciones restantes:
-//       show_message
-//       get_time_hms
-//       format_time
+//nuevas funciones.
+void show_message(times t, int total_steps, double dist, double calories, string msg);
+times get_time_hms(long seconds);
+string format_time(times t);
 
 #endif

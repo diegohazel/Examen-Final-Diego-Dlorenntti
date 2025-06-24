@@ -41,9 +41,21 @@ string get_achievement(double dist) {
 }
 
 // TODO: Implemente las funciones restantes:
-//       show_message
-//       get_time_hms
-//       format_time
+void show_message(times t, int total_steps, double dist, double calories, string msg){
+
+}
+
+times get_time_hms(long seconds){
+  return times();
+}
+
+
+string format_time(times t){
+  return "";
+}
+
+
+
 
 // TODO: Implemente la funcion madre
 // Esta funcion debe llamar a las otras para realizar lo indicado en el pdf
